@@ -139,12 +139,34 @@ span {
         
     }
 
+  
+.fin-web {
+    width:100% ;
 }
+
+}
+
+
+
 /*----------------fin tete menu ..........*/
 .container {
     padding:  82px 20px;
     max-width: 1040px;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 401px ) {
+   .container {
+    padding: 100px 5px 40px 10px;
+    width: 370px;
+   } 
+
+   .fin-web {
+    width: 105%;
+   }
+   .topbar {
+    width: 100%;
+   }
 }
 
 .card {
