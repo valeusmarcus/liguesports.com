@@ -157,15 +157,20 @@ span {
 
 @media only screen and (max-width: 401px ) {
    .container {
-    padding: 100px 5px 40px 10px;
-    width: 370px;
+    padding: 100px 5px 10px 10px;
+    max-width: 350px;
+    
    } 
 
+ 
+
    .fin-web {
-    width: 105%;
+    min-width: 300px;
+    flex-wrap: wrap;
    }
    .topbar {
     width: 100%;
+  
    }
 }
 
@@ -232,7 +237,8 @@ h4 {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    font-style:oblique;
+    font-style: oblique;
+   
 }
 
 .fin-web p {
